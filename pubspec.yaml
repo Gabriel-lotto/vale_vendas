@@ -1,0 +1,32 @@
+name: vale_vendas
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  build_runner: ^2.4.6
+  cupertino_icons: ^1.0.6
+  dartz: ^0.10.1
+  dio: ^5.3.3
+  flutter:
+    sdk: flutter
+  flutter_mobx: ^2.1.1
+  flutter_modular: ^6.3.2
+  mobx: ^2.2.1
+  mobx_codegen: ^2.4.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
