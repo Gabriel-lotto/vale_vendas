@@ -34,21 +34,6 @@ abstract class HomeStoreBase with Store {
 
   //********************************* Actions *********************************//
 
-  // @action
-  // Future<void> addNote(String note) async {
-  //   await _sharedPreference.add(note).then((_) => getNotes());
-  // }
-
-  // @action
-  // Future<void> deleteNote(int index) async {
-  //   await _sharedPreference.delete(index).then((_) => getNotes());
-  // }
-
-  // @action
-  // Future<void> editNote(String newNote, int index) async {
-  //   await _sharedPreference.edit(newNote, index).then((_) => getNotes());
-  // }
-
   //******************************** Functions ********************************//
 
   Future<void> getProducts() async {
